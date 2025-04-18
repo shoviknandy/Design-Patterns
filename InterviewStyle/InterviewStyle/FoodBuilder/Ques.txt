@@ -1,0 +1,1 @@
+Imagine you're building a meal ordering system (like McDonald's or Subway). A meal can have a burger, a drink, and fries. Not every meal has all three items.Build the classes and interfaces as you see fit. Your design should support flexibility and scalability (e.g., adding dessert later should not require rewriting everything).

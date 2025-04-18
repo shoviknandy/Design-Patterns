@@ -1,0 +1,12 @@
+﻿You’re building a system for applying discounts to an order total.
+
+Core Setup:
+You have a base Order class with a method GetTotal() returning the current price (say, 1000).
+
+There are multiple discount types:
+
+CouponDiscount → flat ₹100 off
+
+FestiveDiscount → 10% off
+
+LoyaltyDiscount → 5% off

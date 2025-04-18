@@ -1,0 +1,13 @@
+Scenario: You're building a Stock Price Monitoring System.
+Clients (apps, terminals, alert systems) need to be notified immediately whenever the stock price of a company changes.
+
+Requirements:
+-Implement an observable class called Stock, which has:
+-A Price property.
+-The ability to add/remove observers.
+-A way to notify observers when the price changes.
+-Implement a couple of observers like:
+	-MobileAppNotifier
+	-EmailNotifier
+
+Each observer should display a message when notified about the stock price update.

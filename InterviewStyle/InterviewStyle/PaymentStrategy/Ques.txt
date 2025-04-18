@@ -1,0 +1,17 @@
+You're working on a payment gateway system for an e-commerce platform. Customers can pay using:
+1)Credit Card
+2)PayPal
+3)UPI
+
+These payment methods are interchangeable and selected at runtime, depending on user preference.
+Implement a Strategy Pattern to handle these payment methods.
+
+Requirements:
+Create a PaymentContext class that delegates the actual payment to a chosen strategy.
+Define a IPaymentStrategy interface and implement different strategies for each method.
+The context should be able to switch strategies dynamically if needed.
+
+Bonus Points:
+Add a method like ProcessOrder(string orderId, double amount) that utilizes the strategy.
+
+Keep it clean and real-world-like.
